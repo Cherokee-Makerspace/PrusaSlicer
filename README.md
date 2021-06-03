@@ -1,7 +1,8 @@
 # PrusaSlicer Configuration Bundle
 for Cherokee Makerspace 3D Printers
 
-Currently on [PrusaSlicer](https://www.prusa3d.com/prusaslicer/) V2.3.0
+Download and install [PrusaSlicer](https://www.prusa3d.com/prusaslicer/) V2.3.0
+File - Import - Import Config Bundle
 
 ## Printers Supported
 ### Prusa i3 Mk3s with MMU2s
