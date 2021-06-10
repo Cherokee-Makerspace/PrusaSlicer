@@ -20,7 +20,12 @@ To use, select Import Config Bundle from the Prusa Slicer File / Import menu.
 
 | Section | Setting | Notes |
 | ------- | ------- | ----- |
-| Output Options | Verbose G-Code -[x] |
+| Output Options | Verbose G-Code | [x] |
+| Output Options | Output filename format |  {input_filename_base}_{layer_height}_{filament_type[0]}_{printer_model}_{print_time}.gcode |
+
+| Setting | LH | 1LH | #P | TL | BL | Infill | Pattern |
+| ------- | -- | --- | -- | -- | -- | ------ | ------- |
+| 0.35 INSANE | 0.35 | 0.2 | 3 | 3 | 10% | Cubic |
  
 ### Filament Settings
 
