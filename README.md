@@ -7,29 +7,25 @@ It is for [Cherokee Makerspace 3D Printers Only]
 To use, select Import Config Bundle from the Prusa Slicer File / Import menu.
 
 ## Printers Supported
-### Prusa i3 Mk3s with MMU2s
-* OctoPrint on Raspberry Pi 4
+| Printer | Nozzle | Bed Size | Controller | Firmware | Web Interface |
+| Prusa i3 Mk2.5s | 0.4 Steel | 250x210x210 | RAMBo | Prusa | OctoPrint |
+| Prusa i3 Mk3s MMU2s | 0.4 Brass | 250x210x210 | RAMBo | Prusa  | OctoPrint |
+| [Robo 3D R1](https://github.com/Cherokee-Makerspace/Robo-Garolite.git) | 0.8 Steel | 220x200x200 | RAMPS | Marlin | OctoPrint |
+| [Robo 3D R1+](https://github.com/Cherokee-Makerspace/Robo-Buildtak.git) | 0.8 Steel | 220x200x200 | RAMPS | Marlin | OctoPrint |
+| [Cube Pro](https://github.com/Cherokee-Makerspace/Duet-Cube.git) | 0.4 Vanadium | x | Duet3D | RepRap | Built In |
 
-### Prusa i3 Mk2.5s
-* OctoPrint on Raspberry Pi 4
-* MicroSwiss 0.4 Steel Nozzle
+### Print Settings
 
-### [Robo 3D R1+ with Garolite Bed](https://github.com/Cherokee-Makerspace/Robo-Garolite.git)
-* OctoPrint on Raspberry Pi 3B+
-* MicroSwiss 0.8 Steel Nozzle
+### Filament Settings
+| Filament |
+| Inland PLA |
+| Inland PETG |
 
-### [Robo 3D R1+ with Buildtak Bed](https://github.com/Cherokee-Makerspace/Robo-Buildtak.git)
-* OctoPrint on Raspberry Pi 3B+
-
-### [Cube Pro with Mosquito Magnum](https://github.com/Cherokee-Makerspace/Duet-Cube.git)
-* Duet3D with RepRap Firmware
-* Bondtech BMG Extruder
-* Slice Mosquito Magnum Hotend with Vanadium Nozzle
-* BL Touch Bed Leveling
-* Garolite Heated Bed
-* Chamber Heater
-
-## Additional Filaments
-### Inland
-* PLA
-* PETG
+#### Changlog
+| Date | Setting | Notes |
+| 06/09/21 | Printer | Removed Robo 3D (0.4) since both Robos are now using 0.8 Nozzles  |
+| 06/09/21 | Print / 0.55 DRAFT - Layers | 3 Perimeters, Avoid Crossing Perimeters, External Perimeters First, Nearest Seam Position, External Perimeters First |
+| 06/09/21 | Print / 0.55 DRAFT - Infill | 15% Infill, 2.5 Infill Anchor, 10mm Max Infill Anchor |
+| 06/09/21 | Print / 0.55 DRAFT - Output | Check Verbose G-code |
+| 06/09/21 | Print / 0.40 QUALITY - Layers | 3 Perimeters, Avoid Crossing Perimeters, External Perimeters First, Nearest Seam Position, External Perimeters First |
+| 06/09/21 | Print / 0.55 QUALITY - Output | Check Verbose G-code |
