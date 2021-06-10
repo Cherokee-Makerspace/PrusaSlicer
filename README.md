@@ -8,7 +8,8 @@ To use, select Import Config Bundle from the Prusa Slicer File / Import menu.
 
 ## Printers Supported
 
-| Printer             | Nozzle    | Bed Size    | Controller | Firmware | Web Interface |
+| Printer | Nozzle | Bed Size | Controller | Firmware | Web Interface |
+
 | Prusa i3 Mk2.5s     | 0.4 Steel | 250x210x210 | RAMBo      | Prusa    | OctoPrint     |
 | Prusa i3 Mk3s MMU2s | 0.4 Brass | 250x210x210 | RAMBo      | Prusa    | OctoPrint     |
 
