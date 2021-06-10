@@ -9,7 +9,7 @@ To use, select Import Config Bundle from the Prusa Slicer File / Import menu.
 ## Printers Supported
 
 | Printer | Nozzle | Bed Size | G-Code | Host Type |
-| ------- | ------ | -------- | ---------- | -------- | ------------- |
+| ------- | ------ | -------- | ------ | --------- |
 | Prusa i3 Mk2.5s | 0.4 Steel | 250x210x210 | Marlin | OctoPrint |
 | Prusa i3 Mk3s MMU2s | 0.4 Brass | 250x210x210 | Marlin | OctoPrint |
 | [Robo 3D R1](https://github.com/Cherokee-Makerspace/Robo-Garolite.git) | 0.8 Steel | 220x200x200 | Marlin | OctoPrint |
