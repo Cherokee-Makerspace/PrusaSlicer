@@ -18,12 +18,16 @@ To use, select Import Config Bundle from the Prusa Slicer File / Import menu.
 
 ### Print Settings
 
+| Section | Setting | Notes |
+| ------- | ------- | ----- |
+| Output Options | Verbose G-Code [x] |
+ 
 ### Filament Settings
 
 | Filament | Nozzle | Bed |
 | -------- | ------ | --- |
-| Inland PLA | 210/205 | 60/60 |
-| Inland PETG | 230/230 | 85/80 |
+| Inland PLA | 210 / 205 | 60 / 60 |
+| Inland PETG | 230 / 230 | 85 / 80 |
 
 ### Changelog
 
