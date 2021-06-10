@@ -12,7 +12,7 @@ To use, select Import Config Bundle from the Prusa Slicer File / Import menu.
 | ------- | ------ | -------- | ------ | --------- |
 | Prusa i3 Mk2.5s | 0.4 Steel | 250x210x210 | Marlin | OctoPrint |
 | Prusa i3 Mk3s MMU2s | 0.4 Brass | 250x210x210 | Marlin | OctoPrint |
-| [Robo 3D R1](https://github.com/Cherokee-Makerspace/Robo-Garolite.git) [^1]| 0.8 Steel | 220x200x200 | Marlin | OctoPrint |
+| [Robo 3D R1](https://github.com/Cherokee-Makerspace/Robo-Garolite.git) | 0.8 Steel | 220x200x200 | Marlin | OctoPrint |
 | [Robo 3D R1+](https://github.com/Cherokee-Makerspace/Robo-Buildtak.git) | 0.8 Steel | 220x200x200 | Marlin | OctoPrint |
 | [Cube Pro](https://github.com/Cherokee-Makerspace/Duet-Cube.git) | 0.4 Vanadium | x | RepRap Firmware | Duet |
 
@@ -20,7 +20,7 @@ To use, select Import Config Bundle from the Prusa Slicer File / Import menu.
 
 | Section | Setting | Notes |
 | ------- | ------- | ----- |
-| Output Options | Verbose G-Code [x] |
+| Output Options | Verbose G-Code -[x] |
  
 ### Filament Settings
 
