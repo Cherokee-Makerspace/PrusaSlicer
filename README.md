@@ -25,7 +25,11 @@ To use, select Import Config Bundle from the Prusa Slicer File / Import menu.
 
 | Setting | LH | 1LH | #P | TL | BL | Infill | Pattern |
 | ------- | -- | --- | -- | -- | -- | ------ | ------- |
-| 0.35 INSANE | 0.35 | 0.2 | 3 | 3 | 10% | Cubic |
+| 0.35 INSANE | 0.35 | 0.2 | 2 | 3 | 3 | 10% | Cubic |
+
+| Speeds | Per | SmP | ExP | Infl | SInf | TInf | Sprt | Brdg | Gap | Trav | 1Lyr |
+| ------ | --- | --- | --- | ---- | ---- | ---- | ---- | ---- | --- | ---- | ---- |
+| 0.35 INSANE | 100 | 50 | 70 | 250 | 250 | 100 | 100 | 60 | 80 | 180 | 30 |
  
 ### Filament Settings
 
