@@ -25,7 +25,7 @@ To use, select Import Config Bundle from the Prusa Slicer File / Import menu.
 | Inland PLA |
 | Inland PETG |
 
-#### Changlog
+### Changelog
 
 | Date | Setting           | Notes |
 | ---- | ----------------- | ----- |
