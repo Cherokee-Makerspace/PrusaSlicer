@@ -37,15 +37,4 @@ To use, select Import Config Bundle from the Prusa Slicer File / Import menu.
 | -------- | ------ | --- |
 | Inland PLA | 210 / 205 | 60 / 60 |
 | Inland PETG | 230 / 230 | 85 / 80 |
-
-### Changelog
-
-| Date | Setting | Notes |
-| ---- | ------- | ----- |
-| 06/18/21 | Printer | Switched all printers to wired Ethernet IP |
-| 06/09/21 | Printer | Removed Robo 3D (0.4) since both Robos are now using 0.8 Nozzles  |
-| 06/09/21 | Print / 0.55 DRAFT - Layers | 3 Perimeters, Avoid Crossing Perimeters, External Perimeters First, Nearest Seam Position, External Perimeters First |
-| 06/09/21 | Print / 0.55 DRAFT - Infill | 15% Infill, 2.5 Infill Anchor, 10mm Max Infill Anchor |
-| 06/09/21 | Print / 0.55 DRAFT - Output | Check Verbose G-code |
-| 06/09/21 | Print / 0.40 QUALITY - Layers | 3 Perimeters, Avoid Crossing Perimeters, External Perimeters First, Nearest Seam Position, External Perimeters First |
-| 06/09/21 | Print / 0.55 QUALITY - Output | Check Verbose G-code |
+| BASF Ultrafuse | 230 / 225 | 95 / 90 |
