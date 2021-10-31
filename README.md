@@ -1,10 +1,15 @@
 # PrusaSlicer Configuration Bundle
 for Cherokee Makerspace 3D Printers
 
-This bundle has been tested on [PrusaSlicer](https://www.prusa3d.com/prusaslicer/) V2.3.0
-It is for [Cherokee Makerspace 3D Printers Only]
+## Installation
+Download and install the latest version of [PrusaSlicer](https://www.prusa3d.com/prusaslicer/)
+In the Prusa Slicer Configuration Assistant, check the following:
+1. Original Prusa i3 MK3s MMU2s (0.4 nozzle)
+2. Original Prusa i3 MK2.5S (0.4 nozzle)
 
-To use, select Import Config Bundle from the Prusa Slicer File / Import menu.
+## Starting Over
+1. Run Configuration Assistant from the Configuration menu.
+2. Check - Remove User Profiles
 
 ## Printers Supported
 
