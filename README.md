@@ -1,45 +1,34 @@
 # PrusaSlicer Configuration Bundle
 for Cherokee Makerspace 3D Printers
 
-## Installation
-Download and install the latest version of [PrusaSlicer](https://www.prusa3d.com/prusaslicer/)
-In the Prusa Slicer Configuration Assistant, check the following:
-1. Original Prusa i3 MK3s MMU2s (0.4 nozzle)
-2. Original Prusa i3 MK2.5S (0.4 nozzle)
+# Printers Supported
+1. Prusa Mk2.5s with OctoPrint
+2. Prusa Mk3s with OctoPrint
+3. Prusa Mk3s+ with E3D Hemera Revo (4 nozzle sizes) and OctoPrint
+3. Cube Hemera Revo with OctoPrint (Swappable Nozzles)
+4. Cube Mosquito Magnum with OctoPrint (Vanadium Nozzle)
+5. Creality Ender-3 with BL Touch
+6. Anycubic Mono X Resin Printer
 
-## Starting Over
-1. Run Configuration Assistant from the Configuration menu.
+# Depreciated
+1. Robo 3D (Removed from Physical Printers)
+
+## Fresh Installation
+Download and install the latest version of [PrusaSlicer](https://www.prusa3d.com/prusaslicer/)
+In the Prusa Slicer Configuration Assistant, uncheck everything except the following:
+1. Original Prusa i3 MK2.5s (0.40 nozzle)
+2. Original Prusa i3 MK3s (0.25, 0.40. 0.60, 0.80 nozzles)
+3. Creality Ender-3 BLTouch (0.4 nozzle)
+4. Anycubic Photon Mono X
+
+### Installing Configuration Bundle
+1. Unzip the contents of PrusaSlicer-config.zip
+2. Go to File - Import - Import Config Bundle and choose the unzipped PrusaSlicer_config_bundle.ini.
+
+## Starting Over From Scratch
+This will delete all your existing customizations.
+1. Go to Configuration - Configuration Wizard.
 2. Check - Remove User Profiles
 
-## Printers Supported
-
-| Printer | Nozzle | Bed Size | G-Code | Host Type |
-| ------- | ------ | -------- | ------ | --------- |
-| Prusa i3 Mk2.5s | 0.4 Steel | 250x210x210 | Marlin | OctoPrint |
-| Prusa i3 Mk3s MMU2s | 0.4 Brass | 250x210x210 | Marlin | OctoPrint |
-| [Robo 3D R1](https://github.com/Cherokee-Makerspace/Robo-Garolite.git) | 0.8 Steel | 220x200x200 | Marlin | OctoPrint |
-| [Robo 3D R1+](https://github.com/Cherokee-Makerspace/Robo-Buildtak.git) | 0.8 Steel | 220x200x200 | Marlin | OctoPrint |
-| [Cube Pro](https://github.com/Cherokee-Makerspace/Duet-Cube.git) | 0.4 Vanadium | x | RepRap Firmware | Duet |
-
-### Print Settings
-
-| Section | Setting | Notes |
-| ------- | ------- | ----- |
-| Output Options | Verbose G-Code | [x] |
-| Output Options | Output filename format |  {input_filename_base}_{layer_height}_{filament_type[0]}_{printer_model}_{print_time}.gcode |
-
-| Setting | LH | 1LH | #P | TL | BL | Infill | Pattern |
-| ------- | -- | --- | -- | -- | -- | ------ | ------- |
-| 0.35 INSANE | 0.35 | 0.2 | 2 | 3 | 3 | 10% | Cubic |
-
-| Speeds | Per | SmP | ExP | Infl | SInf | TInf | Sprt | Brdg | Gap | Trav | 1Lyr |
-| ------ | --- | --- | --- | ---- | ---- | ---- | ---- | ---- | --- | ---- | ---- |
-| 0.35 INSANE | 100 | 50 | 70 | 250 | 250 | 100 | 100 | 60 | 80 | 180 | 30 |
- 
-### Filament Settings
-
-| Filament | Nozzle | Bed |
-| -------- | ------ | --- |
-| Inland PLA | 210 / 205 | 60 / 60 |
-| Inland PETG | 230 / 230 | 85 / 80 |
-| BASF Ultrafuse | 230 / 225 | 95 / 90 |
+## Selective Installation
+Files and instructions coming soon.
