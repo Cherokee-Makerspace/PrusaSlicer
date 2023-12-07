@@ -2,13 +2,17 @@
 for Cherokee Makerspace 3D Printers
 
 # Printers Supported
-1. Prusa Mk2.5s with OctoPrint
-2. Prusa Mk3s with OctoPrint
-3. Prusa Mk3s+ with E3D Hemera Revo (4 nozzle sizes) and OctoPrint
-3. Cube Hemera Revo with OctoPrint (Swappable Nozzles)
-4. Cube Mosquito Magnum with OctoPrint (Vanadium Nozzle)
-5. Creality Ender-3 with BL Touch
-6. Anycubic Mono X Resin Printer
+Prusa Printers
+1. Prusa1: Mk3s with OctoPrint
+2. Prusa2: Mk2.5s with OctoPrint
+3. Prusa3: Mk3s+ with E3D Hemera Revo and OctoPrint
+4. Prusa4: Mk3s+ with E3D Hemera Revo and OctoPrint
+5. Prusa5: Mk3s+/MMU2s with E3D Hemera Revo and OctoPrint
+
+Makerspace Modded Printers
+1. Cube Hemera Revo with OctoPrint
+2. Cube Mosquito Magnum with OctoPrint
+3. Creality Ender-3 with BL Touch
 
 # Depreciated
 1. Robo 3D (Removed from Physical Printers)
